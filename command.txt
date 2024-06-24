@@ -108,3 +108,33 @@ $ git commit -m "新增Command.txt"
 
 USER@DESKTOP-D9RGDQQ MINGW64 ~/Desktop/project (master)
 
+USER@DESKTOP-D9RGDQQ MINGW64 ~/Desktop/project (master)
+$ git add .
+
+USER@DESKTOP-D9RGDQQ MINGW64 ~/Desktop/project (master)
+$ git commit -m "update Command.txt"
+[master bc84235] update Command.txt
+ 1 file changed, 36 insertions(+)
+
+USER@DESKTOP-D9RGDQQ MINGW64 ~/Desktop/project (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+USER@DESKTOP-D9RGDQQ MINGW64 ~/Desktop/project (master)
+$ git log
+commit bc84235f3c8a64e054bed7f00e18f3f52cbf1fe7 (HEAD -> master)
+Author: jclee <jclee.ftc@msa.hinet.net>
+Date:   Mon Jun 24 16:54:54 2024 +0800
+
+    update Command.txt
+
+commit 072624eed8a35c8db07b19126c4ab15c59f1f67e
+Author: jclee <jclee.ftc@msa.hinet.net>
+Date:   Mon Jun 24 16:45:19 2024 +0800
+
+    新增Command.txt
+
+USER@DESKTOP-D9RGDQQ MINGW64 ~/Desktop/project (master)
+$
+
